@@ -18,8 +18,7 @@ Através da captura de vídeo em tempo real, o sistema detecta o movimento do ro
 
 ## Diagrama de Classes
 
-<img width="1218" height="864" alt="image" src="assets/image/diagra*(adicione aqui a imagem do diagrama, se tiver)*
-maClasses.png" />
+<img width="1218" height="864" alt="image" src="assets/image/diagramaClasses.png" />
 ---
 
 ## Dependências
