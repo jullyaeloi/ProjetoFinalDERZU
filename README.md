@@ -1,2 +1,84 @@
-# ProjetoFinalDERZU
-Projeto final da disciplina de Linguagem de Progamação 2, ministrada pelo professor Derzu Omaia
+# pingPONG
+
+**Integrantes:** Vinicius Figueira, Bruna Evelyn e Maria Jullya Eloi
+
+**Curso:** Engenharia da Computação
+
+**Disciplina:** Linguagem de Programação I
+
+---
+
+## Introdução
+
+O **pingPONG** é um jogo interativo de ping pong, controlado apenas pela face do jogador utilizando visão computacional.
+
+Através da captura de vídeo em tempo real, o sistema detecta o movimento do rosto e o utiliza para controlar a raquete dentro do jogo.
+
+---
+
+## Diagrama de Classes
+
+*(adicione aqui a imagem do diagrama, se tiver)*
+
+---
+
+## Dependências
+
+* **OpenCV:**
+
+```bash
+sudo apt install libopencv-dev
+```
+
+* **SDL:**
+
+```bash
+sudo apt install libsdl2-dev libsdl2-2.0-0
+```
+
+---
+
+## Como jogar:
+
+1. Baixe o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/pingOmaia-openCV.git
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+cd pingOmaia-openCV
+```
+
+3. Execute o script:
+
+```bash
+bash Play.sh
+```
+
+ou
+
+```bash
+./Play.sh
+```
+
+---
+
+## Funcionamento
+
+* A webcam captura o rosto do jogador
+* O OpenCV realiza a detecção facial
+* O movimento vertical da cabeça controla a raquete
+* O objetivo é rebater a bola e marcar pontos
+
+---
+
+## Observações
+
+* É necessário possuir uma webcam funcional
+* O ambiente deve ter boa iluminação para melhor detecção facial
+* O desempenho pode variar conforme o hardware
+
+---
