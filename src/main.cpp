@@ -188,9 +188,9 @@ int main() {
                     congratsText = "Deu Empate!!";
                 } else if (singlePlayer) {
                     if (player1.getScore() > player2.getScore()) {
-                        congratsText = "Parabens, voce ganhou da maquina!";
+                        congratsText = "Parabens, voce ganhou!";
                     } else {
-                        congratsText = "Voce perdeu, tem que treinar mais viu...";
+                        congratsText = "Voce perdeu...";
                     }
                 } else {
                     string winner = (player1.getScore() > player2.getScore()) ? player1.getName() : player2.getName();
