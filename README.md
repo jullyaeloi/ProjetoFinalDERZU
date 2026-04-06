@@ -1,4 +1,4 @@
-# pingPONG
+# facePONG
 
 **Integrantes:** Vinicius Figueira, Bruna Evelyn e Maria Jullya Eloi
 
@@ -10,7 +10,7 @@
 
 ## Introdução
 
-O **pingPONG** é um jogo interativo de ping pong, controlado apenas pela face do jogador utilizando visão computacional.
+O **facePONG** é um jogo interativo de ping pong, controlado apenas pela face do jogador utilizando visão computacional.
 
 Através da captura de vídeo em tempo real, o sistema detecta o movimento do rosto e o utiliza para controlar a raquete dentro do jogo.
 
