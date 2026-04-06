@@ -42,13 +42,13 @@ sudo apt install libsdl2-dev libsdl2-2.0-0
 1. Baixe o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/pingOmaia-openCV.git
+git clone git@github.com:jullyaeloi/ProjetoFinalDERZU.git
 ```
 
 2. Entre na pasta do projeto:
 
 ```bash
-cd pingOmaia-openCV
+cd ProjetoFinalDERZU
 ```
 
 3. Execute o script:
